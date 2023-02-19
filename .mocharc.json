@@ -1,0 +1,9 @@
+{
+  "exit": true,
+  "bail": true,
+  "slow": 1000,
+  "recursive": true,
+  "reporter": "spec",
+  "spec": "tests/*.spec.js",
+  "package": "./package.json"
+}

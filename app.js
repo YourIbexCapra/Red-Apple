@@ -1,3 +1,5 @@
+"use strict";
+
 const express = require("express");
 
 // Setup dotenv config.
@@ -18,3 +20,5 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.status(200).send("Hello world!");
 });
+
+module.exports = { app };

@@ -1,3 +1,4 @@
 node_modules/*
+tests/*.spec.js
 tests/*.test.js
 build/*
