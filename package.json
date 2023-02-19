@@ -1,0 +1,38 @@
+{
+  "name": "red-apple",
+  "version": "0.1.0",
+  "description": "Command n' Control server with custom payloads, and user generated payloads with support for multiple systems.",
+  "author": "YourIbexCapra",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourIbexCapra/Red-Apple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YourIbexCapra/Red-Apple/issues"
+  },
+  "homepage": "https://github.com/YourIbexCapra/Red-Apple#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "C2",
+    "CnC",
+    "C&C"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint --ignore-path .eslintignore --ext .js .",
+    "start:dev": "nodemon",
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "nodemon": "^2.0.20"
+  }
+}

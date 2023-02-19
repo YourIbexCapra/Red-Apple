@@ -1,0 +1,17 @@
+name: Prod
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Build:
+    uses: ./.github/workflows/build.yml
+    
+  Scan:
+    uses: ./.github/workflows/scan.yml
+    permissions:
+      contents: read
+      actions: read
+      security-events: write
